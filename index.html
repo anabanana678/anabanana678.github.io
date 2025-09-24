@@ -1,10 +1,22 @@
 <html> 
 <font color=PURPLE size=200>
- <center><b><a> Oooiii manada de elefantes </a></b></center>
+ <center><b><a> Ooiii manada de elefantes </a></b></center>
 <head>
  <TITLE>coletivo de elefantes=manada de élefanticos</TITLE>
 <style>
+ .wrapper {overflow: auto;}
 
+#main {margin-left: 4px;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+ 
  .flex-container {
   display: flex;
   justify-content: space-evenly;
@@ -85,6 +97,18 @@ h6{
 </head>  
 <body BGCOLOR=LIGHTSKYBLUE>
   <font color=PURPLE size=120>
+
+<div class="wrapper">
+  <div id="leftsidebar">
+    <ul id="menulist">
+      <li class="menuitem">Londres</li>
+      <li class="menuitem">Monge</li>
+      <li class="menuitem">Leão marinho</li>
+      <li class="menuitem">Passaporte</li>
+      <li class="menuitem">Grampeador</li>
+    </ul>
+  </div>
+   
    <center><img src="manada.de.elefantes.jpg" HEIGHT=75% WIDTH=75%></center> <br>
    <h4>Os elefantes estão viajando há 17 meses. A Reserva Natural de Mengyangzi, onde viviam antes de iniciar sua jornada, está localizada na Prefeitura Autônoma de Xishuangbanna Dai, no sul da China, perto da fronteira com Mianmar.
 
